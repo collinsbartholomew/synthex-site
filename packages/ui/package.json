@@ -12,12 +12,13 @@
     "build": "echo ui package build placeholder",
     "lint": "echo ui package lint placeholder",
     "typecheck": "tsc -p tsconfig.json",
-    "clean": "rimraf dist .turbo"
+    "clean": "rimraf dist .turbo",
+    "update": "npx npm-check-updates@latest -u"
   },
   "devDependencies": {
-    "@types/react": "^19.2.2",
-    "@types/react-dom": "^19.2.2",
-    "typescript": "^5.9.3",
-    "rimraf": "^6.0.1"
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "typescript": "^6.0.3",
+    "rimraf": "^6.1.3"
   }
 }

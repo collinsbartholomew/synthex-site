@@ -8,14 +8,15 @@
     "build": "echo db package build placeholder",
     "lint": "echo db package lint placeholder",
     "typecheck": "tsc -p tsconfig.json",
-    "clean": "rimraf dist .turbo"
+    "clean": "rimraf dist .turbo",
+    "update": "npx npm-check-updates@latest -u"
   },
   "dependencies": {
     "postgres": "^3.4.9",
-    "zod": "^4.1.12"
+    "zod": "^4.4.3"
   },
   "devDependencies": {
-    "rimraf": "^6.0.1",
-    "typescript": "^5.9.3"
+    "rimraf": "^6.1.3",
+    "typescript": "^6.0.3"
   }
 }

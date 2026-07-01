@@ -8,10 +8,11 @@
     "build": "echo observability package build placeholder",
     "lint": "echo observability package lint placeholder",
     "typecheck": "tsc -p tsconfig.json",
-    "clean": "rimraf dist .turbo"
+    "clean": "rimraf dist .turbo",
+    "update": "npx npm-check-updates@latest -u"
   },
   "devDependencies": {
-    "rimraf": "^6.0.1",
-    "typescript": "^5.9.3"
+    "rimraf": "^6.1.3",
+    "typescript": "^6.0.3"
   }
 }
