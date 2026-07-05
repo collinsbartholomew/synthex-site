@@ -18,5 +18,8 @@
     "@types/node": "^26.0.1",
     "prettier": "^3.9.3",
     "turbo": "^2.10.0"
+  },
+  "pnpm": {
+    "dangerouslyAllowAllBuilds": true
   }
 }
