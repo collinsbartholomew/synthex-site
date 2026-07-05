@@ -2,7 +2,7 @@
   "name": "synthex-site",
   "version": "0.1.0",
   "private": true,
-  "packageManager": "pnpm@10.22.0",
+  "packageManager": "pnpm@11.3.0",
   "scripts": {
     "dev": "turbo run dev --parallel",
     "dev:web": "pnpm --filter @ai-site/web dev",
